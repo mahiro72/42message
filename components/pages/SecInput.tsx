@@ -8,17 +8,14 @@ export const SecMessage : FC = ()=>{
     const dispatch = useDispatch()
 
     const outputText = 
-    `
-                  :::      ::::::::   
-                :+:      :+:    :+:   
-              +:+ +:+         +:+     
-            +#+  +:+       +#+        
-          +#+#+#+#+#+   +#+           
-               #+#    #+#             
-              ###   ########.fr       
-                                      
-              ${inputText}                 
-    `
+    `       :::      ::::::::
+          :+:      :+:    :+:
+        +:+ +:+         +:+  
+      +#+  +:+       +#+     
+    +#+#+#+#+#+   +#+        
+         #+#    #+#          
+        ###   ########.fr    
+        ${inputText}         `
 
     return (
         <div className="mt-4 mb-4">
