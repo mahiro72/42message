@@ -1,10 +1,20 @@
 import { FC } from "react"
+import Image from "next/image"
 
 export const SecAbout:FC = ()=>{
     return (
-        <div className="text-center mt-3 mb-3">
-            <div className="container">
-                <p>42Tokyoのヘッダーで囲われたメッセージを作成します</p>
+        <div className="text-center mb-3">
+            <Image
+                src="/images/42.png"
+                alt="Picture of the author"
+                width={300}
+                height={230}
+                style={{
+                    // maxWidth:
+                }}
+            />
+            <div className="container" style={{lineHeight:'1.2rem'}}>
+                <p>"42" がついた クールなメッセージを作成します</p>
                 <p>下記のテキストボックスにメッセージを入力して</p>
                 <p>完了ボタンを押してください</p>
             </div>
