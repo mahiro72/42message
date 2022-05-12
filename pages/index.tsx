@@ -1,17 +1,19 @@
 import type { NextPage } from 'next'
 
 import SecAbout from '../components/pages/SecAbout'
-import SecMessage from '../components/pages/SecMessage'
-import SecResult from '../components/pages/SecResult'
+import SecInput from '../components/pages/SecInput'
+import SecOutput from '../components/pages/SecOutput'
+
 
 const Home: NextPage = () => {
-  return (
-    <div>
-        <SecAbout />
-        <SecMessage />
-        <SecResult />
-    </div>
-  )
+
+    return (
+        <div>
+            <SecAbout />
+            <SecInput />
+            <SecOutput />
+        </div>
+    )
 }
 
 export default Home
