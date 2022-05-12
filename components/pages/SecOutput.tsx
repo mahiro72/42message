@@ -11,7 +11,9 @@ export const SecResult : FC = () =>{
 
     const copyAndShare = ()=>{
         navigator.clipboard.writeText(text)
-        setShareText('copyが完了しました!! Twitterで共有しましょう')
+        setShareText(`
+            copyが完了しました!! Twitterで共有しましょう
+        `)
     }
     return (
         <div className="mt-5 mb-4 text-center">
@@ -44,7 +46,7 @@ export const SecResult : FC = () =>{
             </button>
 
             <div className="mt-2 mb-2">
-                <p>{shareText}</p>
+                {shareText}
             </div>
 
 
