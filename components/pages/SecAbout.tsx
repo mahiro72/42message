@@ -9,12 +9,9 @@ export const SecAbout:FC = ()=>{
                 alt="Picture of the author"
                 width={300}
                 height={230}
-                style={{
-                    // maxWidth:
-                }}
             />
             <div className="container" style={{lineHeight:'1.2rem'}}>
-                <p>"42" がついた クールなメッセージを作成します</p>
+                <p>&ldquo;42&ldquo; がついた クールなメッセージを作成します</p>
                 <p>下記のテキストボックスにメッセージを入力して</p>
                 <p>完了ボタンを押してください</p>
             </div>

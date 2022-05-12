@@ -32,6 +32,7 @@ export const SecResult : FC = () =>{
                             color:'white',
                             textAlign:'center'
                         }}
+                        readOnly
                         value={text}
                     ></textarea>
                 </div>
