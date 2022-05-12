@@ -1,10 +1,8 @@
-import { FC, useState } from "react"
+import { FC, useReducer, useState } from "react"
 
 export const SecMessage : FC = ()=>{
-    const [message, setMessage] = useState("")
-    // const f = ()=>{
-    //     console.log(message)
-    // }
+    const [message, setMessage] = useState('')
+
     return (
         <div className="mt-4 mb-4">
             <div className="container">
@@ -18,7 +16,6 @@ export const SecMessage : FC = ()=>{
                     ></textarea>
                 </div>
             </div>
-            {/* <button className="btn btn-primary" onClick={f}>check</button> */}
         </div>
 
     )
